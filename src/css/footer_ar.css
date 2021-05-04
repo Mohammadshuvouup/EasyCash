@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+.footer-container{
+    background: #6654A4;
+    padding: 80px 122px 55px 122px !important;
+margin-top: 130px;
+}
+
+.footer-arabic{
+    text-align: right;
+}
+
+.footer-container ul{
+    list-style-type: none;
+    font-family: 'Tajawal', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: white;
+}
+
+.footer-container ul li a{
+    font-family: 'Tajawal', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 39px;
+    
+    /* or 244% */
+    
+    color: #FFFFFF;
+
+
+}
+
+.footer-container a{
+    text-decoration: none;
+}
+
+.copy-right-footer-ar{
+    margin-top: 80px;
+}
+.copy-right-footer-ar ul{
+    float: left;
+}
+.copy-right-footer-ar ul li{
+   display: inline-block;
+   margin-left: 20px;
+}
+
+.copy-right-footer-ar ul li:first-child{
+    margin-right: 20px;
+}
+.copy-right-footer-ar footer{
+    font-family: 'Tajawal', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+
+
+@media screen and (max-width:768px){
+    .footer-container {
+        padding: 10% 5% 5% 5% !important;
+    }
+
+    .footer-logo{
+        /* text-align: center;
+        margin-bottom: 4rem; */
+        display: none;
+    }
+
+    .copy-right-footer-ar{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .copy-right-footer-ar ul {
+        padding: 0;
+    }
+
+.copy-right-footer-ar ul li {
+    
+    margin-right: 7px;
+}
+
+.copy-right-footer-ar ul span{
+    display: block;
+}
+
+.copy-right-footer-ar ul li:first-child {
+    display: block;
+}
+
+
+.footer-container ul {
+   
+    font-size: 17px;
+    float: none;
+}
+}
